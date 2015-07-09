@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html><head>
 	<title>Greg Martin - <?php echo $title ?></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="stylesheet" href="../../../css/gregmartinboston_master.css" type="text/css" media="screen"/>
-	<!--<link rel="stylesheet" href="../../../css/gregmartinboston_master_alt.css" type="text/css" media="screen, projection"/>-->
+	<!--<link rel="stylesheet" href="../../../css/gregmartinboston_master_alt.css" type="text/css" media="screen"/>-->
 	<link rel="shortcut icon" href="../../../images/favicon.ico" type="image/x-icon"/>
 </head>
 <div id = "container">

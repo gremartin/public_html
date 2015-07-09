@@ -40,7 +40,7 @@
 		}	
 	#nav_primary {
 		color: rgb(73,73,73);
-		margin: 10px 0 0 100px;	
+		margin: 5px 0 0 100px;	
 		width: 1000px;
 		float: left;
 		}	
@@ -60,10 +60,10 @@
 		color: rgb(45,45,45);
 		font-family:Arial, Helvetica, sans-serif;
 		font-weight: bold;
-		height: 150 px;
 		height: 19px;
-		background-color: 679cce;
+		background-color: rgb(103,156,206);
 		text-align: center;
+		margin-top: 2px;
 	}
 	
 	#content {
@@ -296,7 +296,7 @@
 		
 		}
 	#play{
-		width: 35;
+		width: 35px;
 	}	
 	button{
 	
@@ -490,8 +490,8 @@ a:link {
 }
 /* a:visited {
 	text-decoration: none;
-	color: rgb(73,73,73);*/
-}
+	color: rgb(73,73,73);
+}*/
 a:hover {
 	text-decoration: underline;
 	color: rgb(149,46,46);
