@@ -1,4 +1,4 @@
- <body id="home">   
+<body id="home">   
 	<div id = "content" >
       <h2>Boston-based bassist and guitarist</h2>
       	<div id ="home_photos">
