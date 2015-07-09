@@ -1,0 +1,547 @@
+@charset "utf-8";
+/* CSS Document */
+
+	body{
+		background:url(../images/WebBackground.jpg);
+		background-repeat:repeat-x;
+		
+		/*background-color:rgb(180,180,180);*/	
+	}
+	#container{
+		background-image:url(../images/headerBg.jpg);
+		background-repeat:no-repeat;
+		width: 950px;
+		height: 120px;
+		margin: -7px auto;
+	}
+	#page_top{
+		height: 100px;	
+	
+	}
+	#logo_1{
+		margin: 0px 10px 0px 295px;
+		float: left;
+		width: 60px;
+		height: 100px;
+		}
+	#header{
+		float: left;
+		margin: 5px 0px 0px 0px;	
+	
+	}
+	#header h1{
+		margin-top:40px;
+
+		}
+	#logo_2 {
+		margin: 20px 40px 0px 20px;	
+		float: left;
+
+		}	
+	#nav_primary {
+		color: rgb(73,73,73);
+		margin: 10px 0 0 100px;	
+		width: 1000px;
+		float: left;
+		}	
+	.nav_div{
+
+		width: 148px;
+		float: left;
+		text-align: center;
+		
+	}
+	.nav_div a{
+			color: rgb(45, 45, 45);
+	}
+	#photos_apps{
+		overflow: hidden;
+		font-size: 14px;
+		color: rgb(45,45,45);
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		height: 150 px;
+		height: 19px;
+		background-color: 679cce;
+		text-align: center;
+	}
+	
+	#content {
+		margin: 50px auto;			
+		width: 950px;
+		}
+	#content_sf {
+		margin: 50px auto;			
+		width: 850px;
+		padding-left: 100px;
+		height: 600px;
+	}
+	#content_photos {
+		margin: 50px auto;		
+		width: 950px;
+		}
+	#home_photos{
+		text-align:center;
+		word-spacing:4em;
+		margin-top:40px;
+		height: 600px;
+	}
+	#content_about {
+		margin: 60px auto;				
+		height: 600px;
+		width: 375px;
+		}
+	#content_contact {
+		margin: 60px auto;
+		height: 600px;
+		width: 950px;
+		}
+	#content_admin {
+		margin: 60px auto;				
+		height: 600px;
+		width: 950px;
+		}
+	#contact_header{
+		width:500px;
+		margin: auto
+	}
+	#contact_form{
+		margin: 0px 50px 0px 270px;
+		width: 400px;
+			}
+	#login_form{
+		margin: 0px 50px 0px 270px;
+		width: 400px;
+			
+	}		
+	#error_messages{
+		
+	}
+	#error_messages p{
+		color: red;
+		text-align: left;
+		margin-left: 130px;	
+	}
+		#content p {
+		font-size: 16px;
+		color:rgb(228,237,248);
+		font-family: Arial, Helvetica, sans-serif;
+		text-align:center;
+		}
+	#content_about p {
+		font-size: 16px;
+		color:rgb(228,237,248);
+		font-family: Arial, Helvetica, sans-serif;
+		text-align:center;
+		}
+	#content_contact p {
+		font-size: 16px;
+		color:rgb(228,237,248);
+		font-family: Arial, Helvetica, sans-serif;
+		text-align:center;
+		}
+	#content h1 {
+		font-size: 30px;
+		color:rgb(228,237,248);
+		font-family: Arial, Helvetica, sans-serif;
+		text-align:center;
+		}
+	#content h2 {
+		color:rgb(228,237,248);
+		font-size: 20px;		
+		font-family: "Minion Web","Book Antiqua",Palatino,serif;
+		text-align:center;	
+		}
+	#content h3 {
+		font-size: 14px;
+		color:rgb(228,237,248);
+		font-family: Arial, Helvetica, sans-serif;
+		text-align:center;
+		}
+	#content_music {
+		margin: 90px auto;		
+		background-image: url("../images/gear_bw.jpg");
+		background-repeat: no-repeat;
+		background-position: center top;
+		height: 600px;
+		width: 950px;
+		}	
+	#nav_photo_start{
+		
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:13px;
+		font-weight:bolder;
+		color:rgb(228,237,248);	
+		text-align: right;
+		display:table-cell;
+		width: 180px;
+		vertical-align: middle;	
+	
+	}
+		
+	#nav_photo_end{
+		word-spacing: 32em;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:13px;
+		font-weight:bolder;
+		color:rgb(228,237,248);	
+		margin-left: -15px;
+		text-align: left;
+		display:table-cell;
+		width: 180px;
+		vertical-align: middle;	
+	
+	}
+	#nav_photo h2{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:13px;
+		font-weight:bolder;
+		color:#A4A4A4;
+		
+	}
+	#photo_block{
+		content:"";
+		display: inline-block;
+		
+		height: 50%;
+		float:left;
+		}
+	#photo_display{
+		display:table-cell;
+	
+		/*margin-top: 10px;*/
+		
+		margin-bottom: 10px;
+		height: 500px;
+		min-height: 500px;
+		width: 600px;
+		vertical-align: middle;	
+		padding-left: 20px;
+		padding-right: 20px;
+		}
+	#photo_image{
+		margin: 20px 0 30px 0px;
+		text-align: center;			
+		width: 600px;
+		vertical-align: middle;
+	}
+	#photo_image h2{
+	}
+	
+	#photo_caption{		
+		text-align: center;
+		margin-top: -35px;
+	}	
+	#photo_caption p{
+		font-size: 16px;
+		color:rgb(228,237,248);
+		font-family: "Minion Web", "Book Antiqua", Palatino, serif;
+		text-align:center;	
+		font-weight: 600;
+	}
+	#photo_thumbs{		
+		text-align:center;
+		word-spacing: .2em;	
+		margin: auto;
+		padding-bottom: 60px;
+		width: 950px;
+		clear: left;
+	}	
+	#thumb_current{
+		border-style: outset;
+		border-color: darkgrey;
+	}
+	#music_header h2{
+		font-size: 18px;
+		color:rgb(228,237,248);
+		font-family:  "Minion Web", "Book Antiqua", Palatino, serif;
+		font-weight:bold;
+		text-align:center;		
+		margin: -35px 0px 3px -5px;
+		padding-top: 10px;
+	}
+	#music_photo{
+		margin: 10px 0px 10px 60px;
+		}	
+	#music_player{
+		padding-top: 30px;
+		width: 275px;
+		height: 300px;		
+		margin-left: 320px;
+		background-image: url("../images/player_bgd.png");
+		background-repeat:repeat-y;
+		margin: auto;
+		}
+	#content_music p {
+		font-size: 16px;
+		color:rgb(228,237,248);
+		font-family:  Arial, Helvetica, sans-serif;
+		text-align:center;
+		}
+	#content_music h2 {
+		font-size: 18px;
+		color:rgb(228,237,248);
+		font-family:  "Minion Web", "Book Antiqua", Palatino, serif;
+		font-weight:bold;
+		text-align:center;
+		margin-bottom:-13px;
+		}
+	#content_music h3 {
+		font-size: 14px;
+		color:rgb(228,237,248);
+		font-family: "Minion Web", "Book Antiqua", Palatino, serif;
+		text-align:center;
+		font-weight:bold;
+		margin: 5px 0 5px 0;
+		
+		}
+	#play{
+		width: 35;
+	}	
+	button{
+	
+		font-family:  "Minion Web", "Book Antiqua", Palatino, serif;
+		font-weight:bold;
+	
+	}
+	button img{
+		margin-top:3px;
+	}
+	.ui-slider{	
+		width: 250px;
+		margin: 5px 0px 5px 15px;
+	}
+	.button{
+		width: 35px;
+		height: 15px;
+		margin-left: 10px;
+		margin-top: 30px;
+		border: 1px solid black;
+		background-color: red;
+		text-align:center;
+		cursor: pointer;
+		float: left;
+	}	
+	
+	.player_div {
+		text-align:center;
+		height:400px;
+		width: 950px;
+		margin: 30px auto;	
+		
+	}
+	
+	.tracks {		
+		margin-left:40px;
+		margin-top:5px;
+		width:300px;
+		height: 21px;
+		background-color: red;
+	}
+	
+	.song_title{
+		width: 255px;
+		height: 40px;
+		margin-left: 10px;
+		margin-bottom: 2px;
+		border: 1px solid black;
+		text-align:left;
+		cursor: pointer;
+		background-color: white;	
+		font-family: "Minion Web", "Book Antiqua", Palatino, serif;
+		font-size: 13px;
+	}	
+	.label_1{
+		width: 180px;
+		height:15px;
+		float:left;
+	
+	}
+	.label_2{
+		width:20px;
+		height:15px;
+		float:left;
+	}
+	.label_3{
+		width:53px;
+		height:15px;
+		float:right;
+	}	
+	.label_form{
+		font-size: 12px;
+		color:rgb(228,237,248);
+		font-family: "Minion Web", "Book Antiqua", Palatino, serif;
+		}
+	.text_box{
+		width: 375px;	
+		}
+	#message_label{
+		font-size: 12px;
+		color:rgb(228,237,248);
+		font-family: "Minion Web", "Book Antiqua", Palatino, serif;
+		}
+	
+	.message_box{
+		width: 365px;
+		height: 150px;
+		margin-top:-15px;
+		resize:none;
+		text-align: left;		
+	}
+	.player_btn{
+		width: 38px;
+		height: 27px;
+		font-family: "Minion Web", "Book Antiqua", Palatino, serif;
+		font-size: 15px;
+		
+	}
+
+	.photo_btn{
+		width: 38px;
+		height: 27px;
+		font-family: "Minion Web", "Book Antiqua", Palatino, serif;
+		font-size: 15px;		
+		background-color:rgb(126,126,126);
+		border-style: none;
+	}
+	.thumb_links{
+		margin-left:7px;
+		float: left;
+		text-align: center;
+	}
+	.thumbs_inactive{
+		margin-left:7px;
+		float: left;
+		text-align: center;
+	}
+	#button{
+		margin: 20px 0 0 0px;		
+	}		
+.staff{
+	height: 8px;
+	
+}
+#sf_page_title{
+	color:rgb(228,237,248);
+	width: 750px;
+	text-align: center;	
+	margin-bottom: 50px;
+}
+#sf_display{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#e_space, #c_space, #a_space, #f_space, #d_space{
+	background-image: url("/../../../images/line.png");
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	
+}
+#clef{
+	float:left;
+	margin-left: 4px;
+	margin-top: -5px;
+	
+}
+#user_input{
+	width: 200px;
+	height: 400px;
+	border: 1px solid #000;
+	float: left;
+	padding-left: 25px;
+}
+#output{
+	width: 520px;
+	height: 400px;
+	border: 1px solid black;
+	float:left;
+	font-family: serif;
+	background-color: lightgrey;
+	}
+#sf_button{
+	width: 100px;
+	height: 25px;	
+	margin-top: 30px;
+	border: 1px solid black;
+	background-color: #758FB0;
+	text-align:center;
+	cursor: pointer;
+	}
+#scale_output{
+	float: left;
+}
+#scale_list{	
+	/*word-spacing:.8em ;*/
+	margin-top: 50px;
+	margin-left: 150px;
+	}
+h3{
+	margin-left: 55px;
+
+}
+a {
+	font-size: 14px;
+	color: rgb(23,23,23);
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;	
+}
+a:link {
+	text-decoration: none;
+}
+/* a:visited {
+	text-decoration: none;
+	color: rgb(73,73,73);*/
+}
+a:hover {
+	text-decoration: underline;
+	color: rgb(149,46,46);
+}
+a:active {
+	text-decoration: none;
+	color: rgb(149,46,46);
+}
+.nav_div a:hover {
+	text-decoration: underline;
+	color: rgb(149,46,46);
+	}
+#photos_apps:hover {
+	height: 50px;
+	}
+#header a {
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:28px;
+		font-weight:bold;
+		color:rgb(228,237,248);	
+}
+#header a:link {
+	text-decoration: none;
+}
+#header a:visited {
+	text-decoration: none;	
+}
+#header a:hover {
+	
+}
+#header a:active {
+	text-decoration: none;
+	color: rgb(149,46,46);
+}
+#nav_photo a {
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:13px;
+		font-weight:bolder;
+		color:rgb(228,237,248);			
+}
+.thumbs_inactive a:hover {
+	border-style: outset;
+	border-color: lightgrey;
+}
+/*body#home a#home_nav,
+body#about a#about_nav,
+body#music a#music_nav,
+body#photo a#photo_nav,
+body#contact a#contact_nav
+{
+	text-decoration: none;
+	color: rgb(149,46,46);	
+}/*
